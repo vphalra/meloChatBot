@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text-sm a {
+  @apply text-purple-600 font-medium underline hover:text-purple-800 transition-colors cursor-pointer relative;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 2px;
+}
+
+.text-sm a:hover {
+  text-decoration-thickness: 3px;
+}
